@@ -1,7 +1,7 @@
 
 from django.shortcuts import render
-from django.views.generic import View, ListView
-from user.models import User
+
+from deposits.models import Deposit
 from django.http import HttpRequest, HttpResponse
 
 def add_deposit(request):
