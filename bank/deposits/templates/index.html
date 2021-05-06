@@ -6,8 +6,15 @@
 </head>
 <body>
 <ul>
-    Test page
-  {% for}
+  {% for cents in money %}
+    <li>
+        Deposit: {{deposits.deposit}} <br>
+        Term: {{deposits.term}} <br>
+        Rate:{{deposits.rate}} <br>
+        Interest: {{deposits.interest}}
+    </li>
+    {% endfor %}
+
 </ul>
 
 </body>

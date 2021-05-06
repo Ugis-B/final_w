@@ -31,12 +31,6 @@ def index(request):
 
      money = Deposit.objects.all()
 
-     context = {
-         'money': money,
-     }
-
      return render(
-         template_name='index.html',
-         request=request,
-         context=context,
+request, 'index.html', {'money':money}
      )
