@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Deposit</title>
+</head>
+<body>
+<form action="" method="post">
+        {% csrf_token %}
+        Deposit: <input type="number" name="deposit"><br>
+        Term: <input type="number" name="term"><br>
+         Rate: <input type="number" name="rate"><br>
+    Interest: <input type="number" name="interest"><br>
+        <input type="submit">
+    </form>
+
+</body>
+</html>
